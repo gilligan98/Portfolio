@@ -3,9 +3,16 @@ body {
 	display: flex;
 	flex-direction: row;
 	margin: 0 auto;
-	background-color: red;
 }
 
 header {
+	max-width: 100%;
+}
 
+main {
+	max-width: 780px;
+}
+
+a, p, h1, h2, h3, h4 {
+	font-family: "Geist", sans-serif;
 }
