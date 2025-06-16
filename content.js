@@ -1,4 +1,4 @@
-"projects": [
+"project_list": [
 	{
 		"title" : "Graduate School",
 		"type" : "UX/UI Redesign",
@@ -74,6 +74,7 @@
 ]
 
 
+let projects = project_list.length();
 
 
 
@@ -107,3 +108,13 @@ append to main
 	<h2> project.type </h2>
 	<h3> project.workplace + project.date </h3>
 </section>
+
+*/
+
+function buildProject (projects, projects_list) {
+  
+  for (let i = 0; i < projects; i++) {
+    console.log (projects_list[i])
+  }	
+
+}
