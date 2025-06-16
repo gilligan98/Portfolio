@@ -1,4 +1,4 @@
-const project_list  = [
+const project_array = [
   {
     "title": "Graduate School",
     "type": "UX/UI Redesign",
@@ -39,17 +39,12 @@ const project_list  = [
 
 let projects = project_list.length;
 
-
-function buildProject (projects, projects_list) {
-  
-
-
-}
-
-const displayProject = (projectNum, projectList) =>   
+function displayProject = (listLength, projectList){
 	for (let i = 0; i < projects; i++) {
     	console.log (projectList[i])
   	};
+}   
+
 
 displayProject(projects, project_list)
 /*
