@@ -37,7 +37,7 @@ const project_array = [
 ]
 
 
-let projects = project_list.length;
+let projects = project_array.length;
 
 function displayProject(listLength, projectList){
 	for (let i = 0; i < projects; i++) {
