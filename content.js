@@ -42,12 +42,16 @@ let projects = project_list.length;
 
 function buildProject (projects, projects_list) {
   
-  for (let i = 0; i < projects; i++) {
-    console.log (projects_list[i])
-  }	
+
 
 }
 
+const displayProject = (projectNum, projectList) =>   
+	for (let i = 0; i < projects; i++) {
+    	console.log (projectList[i])
+  	};
+
+displayProject(projects, project_list)
 /*
 
 for each item in the JSON file I make a section in the <main> with each of my projects.
