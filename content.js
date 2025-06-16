@@ -37,10 +37,16 @@ const project_list  = [
 ]
 
 
-let projects = project_list.length();
+let projects = project_list.length;
 
 
+function buildProject (projects, projects_list) {
+  
+  for (let i = 0; i < projects; i++) {
+    console.log (projects_list[i])
+  }	
 
+}
 
 /*
 
@@ -73,11 +79,3 @@ append to main
 </section>
 
 */
-
-function buildProject (projects, projects_list) {
-  
-  for (let i = 0; i < projects; i++) {
-    console.log (projects_list[i])
-  }	
-
-}
