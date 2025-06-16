@@ -46,7 +46,7 @@ function displayProject(listLength, projectList){
 }   
 
 
-displayProject(projects, project_list)
+displayProject(projects, project_array)
 /*
 
 for each item in the JSON file I make a section in the <main> with each of my projects.
