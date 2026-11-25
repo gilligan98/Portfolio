@@ -8,12 +8,17 @@
 
 .link-list---horizontal > li {
 	list-style: none;
-	font-color: #283F4D;
+	color: #283F4D;
 }
 
-.link---cta{
-	margin: 1.5rem 1rem;
+.link---cta {
+	margin: 1.5rem 0;
+	padding-left: 1.5rem;
 	border-left: 2px solid 
+}
+
+.link--cta:hover{
+	padding-left: 2rem;
 }
 
 body {
