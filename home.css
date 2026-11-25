@@ -49,7 +49,6 @@ a, p {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5rem;
-	color: #5D58B6;
 }
 
 p {
@@ -58,6 +57,7 @@ p {
 
 a {
 	font-weight: 600;
+	color: #5D58B6;
 }
 
 
