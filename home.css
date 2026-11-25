@@ -5,8 +5,12 @@
 	gap: 1.5rem;
 }
 
-.link-list---horizontal li{
+.link-list---horizontal > li {
 	list-style: none;
+}
+
+.link---cta{
+	
 }
 
 body {
