@@ -2,15 +2,18 @@
 	display: flex;
 	flex-direction: row;
 	margin: 0;
+	padding: 0;
 	gap: 1.5rem;
 }
 
 .link-list---horizontal > li {
 	list-style: none;
+	font-color: #283F4D;
 }
 
 .link---cta{
-	
+	margin: 1.5rem 1rem;
+	border-left: 2px solid 
 }
 
 body {
@@ -35,6 +38,7 @@ header {
 
 main {
 	width: 100%;
+	margin-top: 5rem;
 }
 
 a, p {
