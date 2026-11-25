@@ -1,12 +1,29 @@
 .gallery{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: repeat(2,1fr);
 	gap: 1rem;
 	max-width: 100%;
 }
 
 .gallery img{
 	width: 100%;
+
+}
+
+.gallery .main__img{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 0;
+	grid-row-end: 1;
+}
+
+.gallery .blurb{
+	font-weight: 500;
+	grid-column-start: 0;
+	grid-column-end: 1;
+	grid-row-start: 0;
+	grid-row-end: 2;
 }
 
 
