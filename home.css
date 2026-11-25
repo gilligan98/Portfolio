@@ -1,3 +1,12 @@
+.link-list---horizontal{
+	display: flex;
+	flex-direction: row;
+}
+
+.link-list---horizontal li{
+	list-style: none;
+}
+
 body {
 	max-width: 1080px;
 	display: flex;
@@ -16,6 +25,7 @@ header {
 	grid-column-end: 4;
 	gap: 1rem;
 }
+
 
 main {
 	width: 100%;
