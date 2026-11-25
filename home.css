@@ -6,9 +6,8 @@
 	gap: 1.5rem;
 }
 
-.link-list---horizontal li {
+.link-list---horizontal li{
 	list-style: none;
-	color: #283F4D;
 }
 
 .link---cta {
@@ -16,7 +15,7 @@
 	flex-direction: column;
 	margin: 1.5rem 0;
 	padding-left: 1.5rem;
-	border-left: 7px solid #5882B6;
+	border-left: 7px solid #9894D1;
 	gap: 1rem;
 }
 
@@ -50,6 +49,7 @@ a, p {
 	margin: 0;
 	padding: 0;
 	line-height: 1.5rem;
+	color: #5D58B6;
 }
 
 p {
