@@ -46,6 +46,17 @@
 	gap: 1rem;
 }
 
+.title {
+	color: #1714af;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.title:hover {
+	color:#fff;
+	background-color: #1714af;
+}
+
 body {
 	max-width: 1080px;
 	display: flex;
