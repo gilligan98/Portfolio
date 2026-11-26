@@ -105,7 +105,7 @@ a, p, h1, h2, h3, h4 {
 	font-family: "Geist", sans-serif;
 }
 
-h1, h2 {
+h1, h2, h1 a, h2 a {
 	font-family: "Geist Pixel", sans-serif;
  	font-optical-sizing: auto;
   	font-weight: 400;
@@ -115,28 +115,28 @@ h1, h2 {
 
 .lvl-one {
 	font-weight: 800;
-	font-size: 2.027rem;
+	font-size: 7.993rem;
 	margin: 0;
 }
 
 .lvl-two {
-	font-size: 1.802rem;
+	font-size: 5.653rem;
 }
 
 .lvl-three {
-	font-size: 1.602rem;
+	font-size: 3.998rem;
 }
 
 .lvl-four {
-	font-size: 1.424rem;
+	font-size: 2.827rem;
 }
 
 .lvl-five {
-	font-size: 1.266rem;
+	font-size: 1.999rem;
 }
 
 .lvl-six {
-	font-size: 1.125rem;
+	font-size: 1.414rem;
 }
 
 h1, h2, h3, h4 {
