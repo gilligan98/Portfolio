@@ -26,22 +26,6 @@
 	grid-row-end: 3;
 }
 
-.intro-container{
-	grid-column-start: 6;
-	grid-column-end: 9;
-	background-color: #000;
-}
-
-.intro-container a{
-	border: 2px solid #fff;
-}
-
-.intro-container a:hover{
-	background-color: #fff;
-	color: #1714af;
-	border: 2px solid #1714af;
-}
-
 
 .link-list---horizontal{
 	display: flex;
@@ -83,19 +67,24 @@ header, main {
 	display: flex;
 	flex-direction: column;
 	min-width: 100%;
-	grid-column-start: 4;
-	grid-column-end: 9;
+
 }
 
 header {
 	padding: 2rem;
 	background-color: #000;
+	grid-column-start: 1;
+	grid-column-end: 13;
 }
 
 header h1{
 	color: #fff;
 }
 
+main {
+	grid-column-start: 4;
+	grid-column-end: 9;
+}
 
 a, p {
 	font-size: 1rem;
