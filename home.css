@@ -1,7 +1,8 @@
 .content-container{
-	grid-column-start: 2;
-	grid-column-end: 11;
+	grid-column-start: 4;
+	grid-column-end: 13;
 	gap: 1rem;
+	margin: 0px 1rem;
 }
 
 .gallery{
@@ -33,8 +34,8 @@
 }
 
 .intro-container{
-	grid-column-start: 6;
-	grid-column-end: 10;
+	grid-column-start: 4;
+	grid-column-end: 13;
 	gap: 1rem;
 }
 
