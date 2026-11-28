@@ -1,3 +1,8 @@
+.content-container{
+	grid-column-start: 4;
+	grid-column-end: 1;
+}
+
 .gallery{
 	display: grid;
 	grid-template-columns: 50% 1fr 1fr;
@@ -26,6 +31,11 @@
 	grid-row-end: 3;
 }
 
+.intro-container{
+	grid-column-start: 6;
+	grid-column-end: 10;
+}
+
 .link-list---horizontal{
 	display: flex;
 	flex-direction: row;
@@ -52,23 +62,19 @@
 }
 
 body {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	width: 100%;
-	gap: 1rem;
+	display: flex;
+	flex-direction: column;
 	margin: 0px;
+	max-width: 100%;
 }
 
 header, main {
-
 	min-width: 100%;
 
 }
 
 header {
 	background-color: #000;
-	grid-column-start: 1;
-	grid-column-end: 13;
 	padding: 1.5rem;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -86,10 +92,10 @@ header h1{
 }
 
 main {
-	grid-column-start: 4;
-	grid-column-end: 9;
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	width: 100%;
+	gap: 1rem;
 	margin-top: 2.5rem;
 }
 
